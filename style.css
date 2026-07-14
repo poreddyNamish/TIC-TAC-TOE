@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(120, 187, 228), beige);
+}
+
+.menu{
+    height: 45vh;
+    width: 30vw;
+    background-color: rgb(251, 234, 193);
+    text-align: center;
+    padding: 2rem;
+    font-size: xx-large;
+    box-shadow: 1rem 1rem  black;
+    border-radius: 2rem;
+}
+
+.buttons{
+    height: 45vh;
+    width: 30vw;
+    margin-top: 3rem;
+}
+
+.buttons button{
+    height: 10vh;
+    width: 100%;
+    margin-top: 2rem;
+    background-color: antiquewhite;
+    border-radius: 2rem;
+    font-size: xx-large;
+}
+
+.buttons :hover{
+    box-shadow: 5px 5px  black;
+}
+
+.container-player{
+    height: 76vh;
+    width: 70vw;
+    text-align: center;
+    background-color: rgb(251, 234, 193);
+    border-radius: 2rem;
+    box-shadow: 15px 15px  black;
+}
+
+.boxes{
+    height: 63vh;
+    width: 63vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+
+.boxes button{
+    min-height: 20vh;
+    min-width: 19vw;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: rgb(238, 219, 219);
+    font-size: xx-large;
+}
+
+.boxes button:disabled{
+    opacity: 0.5;
+    cursor: none;
+}
+    
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 10vw;
+    background-color: rgb(251, 234, 193);
+    margin-left: 2rem;
+    font-size: xx-large;
+    box-shadow: 10px 10px  black; 
+    border-radius: 2rem;
+}
+
+.hide{
+    display: none;
+}
+
+.newgame-button{
+    margin-right: 2rem;
+}
+
+.newgame-button{
+    font-size: xx-large;
+    border: none;
+    background-color:  rgb(251, 234, 193);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin-left: .75rem;
+}
+
+.newgame-button button{
+    font-size: xx-large;
+    border: none;
+    background-color:  rgb(251, 234, 193);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.newgame-button button:hover{
+    box-shadow: 5px 5px  black;
+}
+
+.choice{
+    width: 20vw;
+    margin-left: .75rem;
+    font-size: xx-large;
+    border: none;
+    background-color:  rgb(251, 234, 193);
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.choice button{
+    font-size: xx-large;
+    border: none;
+    background-color:  rgb(251, 234, 193);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.choice button:hover{
+    box-shadow: 5px 5px  black;
+}
